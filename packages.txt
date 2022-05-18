@@ -1,0 +1,6 @@
+pytest-ordering
+pytest-xdist
+pytest-assume
+pytest-dependency
+pytest-rerunfailures
+pytest-html

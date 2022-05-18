@@ -1,0 +1,24 @@
+info:
+    platformName: "Android"
+    platformVersion: "9"
+    deviceName: "S"
+    appPackage: "com.tongcheng.android"
+    appActivity: ".LoadingActivity t104"
+    resetKeyboard: True
+    unicodeKeyboard: True
+    noReset: True
+    resetKeyboard: True
+    unicodeKeyboard: True
+    autoAcceptAlerts: true
+
+# caps ={}
+# caps["platformName"] = "Android"
+# caps["platformVersion"] = "9"
+# caps["deviceName"] = "S"
+# caps["appPackage"] = "tv.danmaku.bili"
+# caps["appActivity"] = ".MainActivityV2 t36"
+# caps["resetKeyboard"] = True
+# caps["unicodeKeyboard"] = True
+# caps['skipServerInstallation'] = True
+# caps['skipDeviceInitialization']= True
+# caps['automationName']= "UiAutomator2"
