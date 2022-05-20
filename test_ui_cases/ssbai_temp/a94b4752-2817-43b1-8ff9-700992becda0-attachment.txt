@@ -1,1 +1,0 @@
-INFO     test_tool.my_log:my_log.py:44 获取到的设备信息是:{'platformName': 'Android', 'platformVersion': '9', 'deviceName': 'S', 'appPackage': 'com.tongcheng.android', 'appActivity': '.LoadingActivity t104', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'autoAcceptAlerts': True}

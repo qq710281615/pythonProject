@@ -1,3 +1,0 @@
-INFO     test_tool.my_log:my_log.py:44 获取到的设备信息是:{'platformName': 'Android', 'platformVersion': '9', 'deviceName': 'S', 'appPackage': 'tv.danmaku.bili', 'appActivity': '.MainActivityV2 t75', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'autoAcceptAlerts': True}
-WARNING  urllib3.connectionpool:connectionpool.py:781 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /wd/hub/session/1f3739e7-1756-4eb0-91d9-b2812d6b8bf3
-INFO     test_tool.my_log:my_log.py:44 end

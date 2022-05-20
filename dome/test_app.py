@@ -24,12 +24,12 @@ def test_open(setup_function):
     driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', setup_function)
     # driver.implicitly_wait(15)
     #
-    # driver.find_element(By.ID, 'tv.danmaku.bili:id/expand_search').click()
-    # time.sleep(1)
-    # driver.find_element(By.ID, 'tv.danmaku.bili:id/search_src_text').send_keys("霞姐")
-    # time.sleep(2)
-    # driver.find_element(By.XPATH, "//*[@resource-id='tv.danmaku.bili:id/title' and @text='陕北霞姐美食']").click()
-    # time.sleep(5)
+    driver.find_element(By.ID, 'tv.danmaku.bili:id/expand_search').click()
+    time.sleep(1)
+    driver.find_element(By.ID, 'tv.danmaku.bili:id/search_src_text').send_keys("霞姐")
+    time.sleep(2)
+    driver.find_element(By.XPATH, "//*[@resource-id='tv.danmaku.bili:id/title' and @text='陕北霞姐美食']").click()
+    time.sleep(5)
     # driver.quit()
     # logging.info("end")
 
