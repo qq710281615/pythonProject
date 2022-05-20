@@ -1,0 +1,1 @@
+INFO     test_tool.my_log:my_log.py:44 获取到的设备信息是:{'platformName': 'Android', 'platformVersion': '9', 'deviceName': 'S', 'appPackage': 'tv.danmaku.bili', 'appActivity': '.MainActivityV2 t36', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'autoAcceptAlerts': True}
