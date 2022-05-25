@@ -1,9 +1,0 @@
--
-  BY: id
-  locator: expand_search
-  move: click
--
-  BY: id
-  locator: search_src_text
-  move: send_keys
-  contxt: "霞姐"
