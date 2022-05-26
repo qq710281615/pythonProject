@@ -13,7 +13,7 @@ class MyLog:
         self.my_logger = logging.getLogger(__name__)
         self.my_logger.setLevel(logging.DEBUG)
         self.today = datetime.datetime.today().date()
-        self.log_path = r"C:\Users\ssbai\PycharmProjects\pythonProject\logs".format(self.today)
+        self.log_path = r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\logs\{0}".format(self.today)
         self.filename = "{0}/{1}.log".format(self.log_path, self.today)
         self.create_file()
         self.write_log()

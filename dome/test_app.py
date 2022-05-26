@@ -11,7 +11,7 @@ logging = MyLog()
 @pytest.fixture(scope="function")
 def setup_function():
     try:
-        caps = read_yaml_file.YamlDo("../test_ui_cases/test_case/app_info.yml").read_yaml()["info"]
+        caps = read_yaml_file.YamlDo("../ui_test/test_ui_cases/test_case/app_info.yml").read_yaml()["info"]
     except Exception as e:
         logging.info(e)
         return
