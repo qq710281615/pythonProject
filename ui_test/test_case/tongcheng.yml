@@ -5,6 +5,6 @@ info:
     appPackage: "com.tongcheng.android"
     appActivity: ".LoadingActivity t104"
     resetKeyboard: True
-    noReset: True
+    noReset: "True"
     unicodeKeyboard: True
     autoAcceptAlerts: true
