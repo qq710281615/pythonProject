@@ -1,0 +1,10 @@
+-
+  BY: id
+  locator: home_pull_to_refresh_recyclerview
+-
+  BY: id
+  locator: search_src_text
+-
+  By: id
+  locator: iv_home_ad_close
+

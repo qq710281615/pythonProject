@@ -14,6 +14,10 @@ login:
    locator: "tv_mobile_login"
    move: "click"
   -
+   BY: "id"
+   locator: "tv_login_tab_second"
+   move: "click"
+  -
    By: "id"
    locator: "et_login_static_account_input"
    move: "send_keys"
@@ -28,6 +32,11 @@ login:
    locator: "btn_login_static_commit"
    move: "click"
 
+tqy_main:
+  -
+   By: "xpath"
+   locator: "//*[@text='借现金']"
+   move: "click"
 
 
 

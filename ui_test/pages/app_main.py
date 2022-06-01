@@ -2,8 +2,8 @@ import time
 from appium import webdriver
 from test_tool import read_yaml_file
 from test_tool import my_log
-from ui_test.test_ui_cases.pages.base_page import BasePage
-from ui_test.test_ui_cases.pages.home_page import HomePage
+from ui_test.pages.base_page import BasePage
+from ui_test.pages.home_page import HomePage
 
 logging = my_log.MyLog()
 

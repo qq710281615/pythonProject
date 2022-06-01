@@ -1,11 +1,11 @@
 import logging
 
-from ui_test.test_ui_cases.pages.base_page import BasePage
+from ui_test.pages.base_page import BasePage
 
 
 class LoginPage(BasePage):
     def login(self):
-        self.steps(r"/ui_test/test_ui_cases\pages\page.yml")
+        self.steps(r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\pages\page.yml")
         logging.info("登录成功")
 
         # self._driver.find_element(MobileBy.ID, "cb_privacy_agree").click()
