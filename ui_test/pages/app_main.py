@@ -12,7 +12,7 @@ class App(BasePage):
 
     def start(self):
         try:
-            caps = read_yaml_file.YamlDo("../test_case/tongcheng.yml").read_yaml()["info"]
+            caps = read_yaml_file.YamlDo("../process_config/tongcheng.yml").read_yaml()["info"]
         except Exception as e:
             logging.info(e)
             return

@@ -13,7 +13,9 @@ logging = MyLog()
 
 
 class BasePage:
-    black_list_data = read_yaml_file.YamlDo(r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\pages\back_lists.yml").read_yaml()
+    black_list_data = read_yaml_file.YamlDo(
+        r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\process_config\back_lists.yml")\
+        .read_yaml()
     _driver: WebDriver = None
     _black_list = black_list_data
 
@@ -30,6 +32,7 @@ class BasePage:
         return filename
 
     def find(self, location_method, locator):
+        ele = None
         try:
             ele = self._driver.find_element(location_method, locator)
         except Exception as e:
