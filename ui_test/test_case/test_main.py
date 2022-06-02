@@ -17,7 +17,7 @@ class TestMain:
         os.system(cmd_str)
         print("报告生成完成")
 
-    @pytest.mark.skip()
+    # @pytest.mark.skip()
     def test_login(self, c):
         app = App()
         app.start().main().mime().login().login()

@@ -10,11 +10,11 @@ class MyLog:
     _instance = None
 
     def __init__(self):
-        self.my_logger = logging.getLogger(__name__)
+        self.my_logger = logging.getLogger("ssbai")
         self.my_logger.setLevel(logging.DEBUG)
-        self.today = datetime.datetime.today().date()
-        self.log_path = r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\logs\{0}".format(self.today)
-        self.filename = "{0}/{1}.log".format(self.log_path, self.today)
+        today = datetime.datetime.today().date()
+        self.log_path = r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\logs\{0}".format(today)
+        self.filename = "{0}/{1}.log".format(self.log_path, today)
         self.create_file()
         self.write_log()
 
@@ -35,6 +35,7 @@ class MyLog:
         fmt2 = logging.Formatter(fmt="%(asctime)s - %(name)s - %(levelname)-9s - %(filename)-8s : %(lineno)s line -"
                                      " %(message)s", datefmt="%Y/%m/%d %H:%M:%S")
         f.setFormatter(fmt2)
+        self.my_logger.handlers = []
         self.my_logger.addHandler(f)
 
     def debug(self, msg):
