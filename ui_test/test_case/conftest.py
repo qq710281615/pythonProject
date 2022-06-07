@@ -1,6 +1,9 @@
 # import os
+from datetime import datetime
 
 import pytest
+
+from test_tool.send_email import send_email
 
 
 @pytest.fixture(scope="module", autouse=True)
@@ -8,11 +11,9 @@ def c():
     print("开始测试模块")
     yield
     print("模块测试结束")
-    # report_path = r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\report\{0}".format(20220547)
-    # if os.path.exists(report_path) is False:
-    #     os.makedirs(report_path)
-    #     cmd_str = "allure generate ../allure_temp -o {0} --clean".format(report_path)
-    #     os.system(cmd_str)
-    #     print("报告生成完成")
+    # 发送测试报告到有想
+    content = r"http://127.0.0.1:5000/static/{0}/index.html".format(datetime.today().date())
+    send_email(content)
+
 
 

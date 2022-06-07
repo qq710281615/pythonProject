@@ -6,10 +6,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    with open(r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\report\2022-06-02\index.html") as f:
-        cont = f.read()
-    return cont
+    # with open(r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\report\2022-06-02\index.html") as f:
+    #     cont = f.read()
+    return "q"
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
