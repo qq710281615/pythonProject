@@ -1,5 +1,5 @@
 import unittest
-from test_tool.readdata import ReadData
+from test_tool.read_xlex_file import ReadData
 from test_tool.test_dome import TestDome
 from ddt import ddt
 

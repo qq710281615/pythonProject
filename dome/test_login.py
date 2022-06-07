@@ -50,5 +50,5 @@ class TestLogin:
 if __name__ == '__main__':
     pytest.main()
 
-    os.system('allure generate ./ssbai_temp -o ./report --clean')
+    os.system('allure generate ./ssbai_temp -o ./static --clean')
     print("end")

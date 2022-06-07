@@ -1,5 +1,5 @@
 from locust import task, TaskSet, HttpUser
-from test_tool.readdata import ReadData
+from test_tool.read_xlex_file import ReadData
 import os
 from test_tool import test_dome
 from random import randint
