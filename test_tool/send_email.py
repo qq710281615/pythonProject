@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 def send_email(content):
     host_server = 'smtp.qq.com'  # qq邮箱smtp服务器
     sender_qq = '710281615@qq.com'  # 发件人邮箱
-    pwd = 'horqkqetqzvpbfjh'
+    pwd = ''
     receiver = '710281615@qq.com'
 
     mail_title = 'Python自动发送html格式的邮件'  # 邮件标题
