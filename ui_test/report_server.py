@@ -1,14 +1,11 @@
 from flask import Flask
 
-
-app = Flask(__name__)
+app = Flask(__name__, static_folder="allure_report", static_url_path="/report")
 
 
 @app.route("/")
 def index():
-    # with open(r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\report\2022-06-02\index.html") as f:
-    #     cont = f.read()
-    return "q"
+    return "可以访问"
 
 
 if __name__ == '__main__':

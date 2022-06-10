@@ -12,7 +12,7 @@ def c():
     yield
     print("模块测试结束")
     # 发送测试报告到有想
-    content = r"http://127.0.0.1:5000/static/{0}/index.html".format(datetime.today().date())
+    content = r"http://127.0.0.1:5000/report/{0}/index.html".format(datetime.today().date())
     send_email(content)
 
 

@@ -1,12 +1,10 @@
-import logging
-
 from ui_test.pages.base_page import BasePage
 
 
 class LoginPage(BasePage):
     def login(self):
-        self.steps(r"C:\Users\ssbai\PycharmProjects\pythonProject\ui_test\process_config\page.yml")
-        logging.info("登录成功")
+        self.steps(r"..\process_config\page.yml")
+        self.logging.info("登录成功")
 
         # self._driver.find_element(MobileBy.ID, "cb_privacy_agree").click()
         # self._driver.find_element(MobileBy.ID, "tv_mobile_login").click()
